@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+
+body{
+    background-color: black;
+}
+
+#header{
+    color: white;
+    font-family: 'Georama', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p{
+    color:white;
+}
+
+#p1{
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#camaro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#p2{
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#ford{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.specs{
+    color: white;
+}
+
+#forza{
+    color: white;
+    text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #141414;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #C83E4D;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #2A4494;
+    color: white;
+  }
